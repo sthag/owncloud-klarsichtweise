@@ -1,0 +1,69 @@
+/* HEADERS ------------------------------------------------------------------ */
+
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+	height: 48px;
+	background-color: #808080;
+	line-height: 2.5em;
+}
+
+
+
+/* LOGO and APP NAME -------------------------------------------------------- */
+
+#owncloud {
+	padding: 9px 8px 0;
+	height: 48px; /* header height */
+}
+
+#header .logo {
+	width: 256px;
+	height: 160px;
+	background-image: url('../img/logo.svg');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	margin: 0 auto;
+}
+
+#header .logo-icon {
+	background-image: url('../img/logo-icon.svg');
+	width: 48px;
+	height: 30px;
+}
+
+#header .header-appname-container {
+	left: 64px;
+	height: 48px;
+	padding-top: 0;
+	padding-right: 16px;
+}
+
+/* show appname next to logo */
+.header-appname {
+	margin: 0;
+	padding: 8px 0 8px 8px;
+}
+/* show caret indicator next to logo to make clear it is tappable */
+#header .icon-caret {
+	margin: 0;
+}
+
+
+
+/* NAVIGATION --------------------------------------------------------------- */
+
+#expanddiv:after {
+	right: 17px;
+}
+
+
+
+/* USER MENU -----------------------------------------------------------------*/
+
+#expand {
+	display: block;
+	padding: 8px 32px 8px 8px;
+	cursor: pointer;
+}
